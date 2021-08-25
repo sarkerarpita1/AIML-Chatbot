@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!--Default reply-->
+<category>
+    <pattern>*</pattern>
+    <template>My brain can not process your input please follow the instructions:<br/>
+    You can start by typing teacher or student.
+    </template>
+</category>
+<category>
+    <pattern>HI *</pattern>
+    <template>
+        How may I help you?
+    </template>
+</category>
+<category>
+    <pattern>HI</pattern>
+    <template>
+        How may I help you?
+    </template>
+</category>
+<category>
+    <pattern>_ HI</pattern>
+    <template>
+        How may I help you?
+    </template>
+</category>
+<category>
+    <pattern>_ STUDENT</pattern>
+    <template>
+        How may I help you?
+    </template>
+</category>
+<category>
+    <pattern>_ STUDENT *</pattern>
+    <template>
+        How may I help you?
+    </template>
+</category>
+<category>
+    <pattern>STUDENT *</pattern>
+    <template>
+        How may I help you?
+    </template>
+</category>
+<category>
+    <pattern>STUDENT</pattern>
+    <template>
+        How may I help you?
+    </template>
+</category>
+<category>
+    <pattern>PRACTICE *</pattern>
+    <template>
+        WHICH GROUP OF STUDENT?<br/>
+        Valid:<br/>
+        *KINDERGARTEN<br/>
+        *STANDARD 1<br/>
+        *STANDARD 2<br/>
+        *STANDARD 3<br/>
+        *STANDARD 4<br/>
+        *STANDARD 5
+    </template>
+</category> 
+<category>
+    <pattern>_ PRACTICE *</pattern>
+    <template>
+        WHICH GROUP OF STUDENT?<br/>
+        Valid:<br/>
+        *KINDERGARTEN<br/>
+        *STANDARD 1<br/>
+        *STANDARD 2<br/>
+        *STANDARD 3<br/>
+        *STANDARD 4<br/>
+        *STANDARD 5
+    </template>
+</category>
+<category>
+    <pattern>_ PRACTICE</pattern>
+    <template>
+        WHICH GROUP OF STUDENT?<br/>
+        Valid:<br/>
+        *KINDERGARTEN<br/>
+        *STANDARD 1<br/>
+        *STANDARD 2<br/>
+        *STANDARD 3<br/>
+        *STANDARD 4<br/>
+        *STANDARD 5
+    </template>
+</category>
+<category>
+    <pattern>PRACTICE</pattern>
+    <template>
+        WHICH GROUP OF STUDENT?<br/>
+        Valid:<br/>
+        *KINDERGARTEN<br/>
+        *STANDARD 1<br/>
+        *STANDARD 2<br/>
+        *STANDARD 3<br/>
+        *STANDARD 4<br/>
+        *STANDARD 5
+    </template>
+</category>
+<category>
+    <pattern>KINDERGARTEN</pattern>
+    <template>
+        KINDERGARTEN ANAGRAM
+        <think>
+		<learn>./aiml/standard/wordplay.aiml</learn>
+		</think>
+    </template>
+</category>
+<category>
+    <pattern>STANDARD 1</pattern>
+    <template>
+        STANDARD 1 ANAGRAM
+        <think>
+		<learn>./aiml/standard/wordplay.aiml</learn>
+		</think>
+    </template>
+</category>
+<category>
+    <pattern>STANDARD 2</pattern>
+    <template>
+        STANDARD 2 ANAGRAM
+        <think>
+		<learn>./aiml/standard/wordplay.aiml</learn>
+		</think>
+    </template>
+</category>
+<category>
+    <pattern>STANDARD 3</pattern>
+    <template>
+        STANDARD 3 ANAGRAM
+        <think>
+		<learn>./aiml/standard/wordplay.aiml</learn>
+		</think>
+    </template>
+</category>
+<category>
+    <pattern>STANDARD 4</pattern>
+    <template>
+        STANDARD 4 ANAGRAM
+        <think>
+		<learn>./aiml/standard/wordplay.aiml</learn>
+		</think>
+    </template>
+</category>
+<category>
+    <pattern>STANDARD 5</pattern>
+    <template>
+        STANDARD 5 ANAGRAM
+        <think>
+		<learn>./aiml/standard/wordplay.aiml</learn>
+		</think>
+    </template>
+</category>
+</aiml>

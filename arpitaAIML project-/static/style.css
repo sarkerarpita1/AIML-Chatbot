@@ -1,0 +1,12 @@
+body{background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+height: 100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+fixed-panel{
+    overflow-y:scroll;
+    height: 70vw;
+    max-height: 600px;
+}
